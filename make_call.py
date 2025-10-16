@@ -14,7 +14,7 @@ client = Client(account_sid, auth_token)
 your_phone_number = "+919618160545" 
 
 # Your ngrok forwarding URL (the https one)
-ngrok_url = "https://all-worms-occur.loca.lt" 
+ngrok_url = "https://ai-caller-poc-36.onrender.com" 
 # ------------------------------------
 
 print(f"📞 Initiating call from {twilio_number} to {your_phone_number}...")

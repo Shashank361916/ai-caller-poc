@@ -51,7 +51,7 @@ async def handle_twilio_call():
     twiml = """
     <Response>
         <Connect>
-            <Stream url="wss://all-worms-occur.loca.lt/ws/call" />
+            <Stream url="wss://ai-caller-poc-36.onrender.com/ws/call" />
         </Connect>
     </Response>
     """
